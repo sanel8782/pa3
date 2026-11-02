@@ -1,4 +1,4 @@
-# PA3 - Sistema de Gestión de Productos
+# Sistema de Gestión de Productos
 
 **Curso:** Programación Orientada a Objetos  
 **Trabajo:** Proceso de Aprendizaje 3  
