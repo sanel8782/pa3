@@ -4,7 +4,6 @@
 **Trabajo:** Proceso de Aprendizaje 3  
 **Lenguaje de programación:** Java
 
-
 ## 1. Descripción del proyecto
 
 Este proyecto consiste en desarrollar un sistema básico de gestión de productos utilizando Java.
@@ -12,29 +11,25 @@ El programa permite registrar, buscar, eliminar, listar y ordenar productos medi
 Para su desarrollo utilizamos clases, objetos, métodos y colecciones, para de organizar el código y sea eficaz.
 El sistema funciona por consola y cuenta con un menú que permite al usuario seleccionar las diferentes operaciones disponibles.
 
-## 2. Integrantes del equipo
+## 2. Integrantes del equipo 08 
 
-| N.º | Apellidos y nombres |
-|---|---|
-| 1 | [Nombre del integrante 1] |
-| 2 | [Nombre del integrante 2] |
-| 3 | [Nombre del integrante 3] |
-| 4 | [Nombre del integrante 4] |
-| 5 | [Nombre del integrante 5] |
+| 1 | Angie Damaris Evangelista Pardo |
+| 2 | Jesus Alexander Garcia Flores |
+| 3 | Misael Yeremi Solis Sanchez |
+| 4 | Dante Zosimo Alanya Molina |
+| 5 | nom |
 
 ## 3. Tecnologías utilizadas
 
-Para desarrollar el proyecto utilizamos las siguientes herramientas y conceptos:
-
-- **Java:** lenguaje de programación utilizado para desarrollar el sistema.
-- **Programación Orientada a Objetos:** para organizar el programa mediante clases, atributos y métodos.
-- **ArrayList:** para almacenar los productos registrados.
-- **Collections:** para trabajar con el ordenamiento de los productos.
-- **IntelliJ IDEA:** entorno de desarrollo utilizado para trabajar con el código Java.
+- **Java:** Lenguaje de programación utilizado en el sistema.
+- **Programación Orientada a Objetos:** Para organizar el programa mediante clases, atributos y métodos.
+- **ArrayList:** Almacenar los productos registrados.
+- **Collections:** Trabajar con el ordenamiento de los productos.
+- **IntelliJ IDEA:** Entorno de desarrollo utilizado para trabajar con el código Java.
 
 ## 4. Estructura del proyecto
 
-El proyecto está organizado en diferentes clases para separar las funciones del sistema y facilitar su comprensión.
+El proyecto está organizado en diferentes clases para separar las funciones del sistema para tener un orden claro y encontrar facimente cada pagina.
 
 ```text
 src/
@@ -60,20 +55,18 @@ src/
 
 El sistema cuenta con las siguientes opciones:
 
-1. **Listar productos:** muestra los productos que se encuentran registrados.
-2. **Agregar productos:** permite ingresar nuevos productos al inventario.
-3. **Buscar productos:** permite encontrar un producto mediante su código.
-4. **Eliminar productos:** permite retirar un producto de la lista.
-5. **Ordenar productos por precio:** organiza los productos según su precio.
-6. **Recuperar productos por posición:** permite consultar un producto según su ubicación en el `ArrayList`.
+1. **Listar productos:** Nos muestra todos los productos que se encuentran registrados.
+2. **Agregar productos:** Te permite ingresar nuevos productos al inventario.
+3. **Buscar productos:** Permite encontrar un producto mediante su código.
+4. **Eliminar productos:** Le permite retirar un producto de la lista.
+5. **Ordenar productos por precio:** Organiza los productos según su precio de froma ascendente.
+6. **Recuperar productos por posición:** Nos permite consultar un producto según su ubicación en el `ArrayList`.
 
-Estas funcionalidades se realizan mediante un menú en consola, donde el usuario selecciona la opción que desea ejecutar.
+Totas las funciones se crearon para cuando realicemos desde el menú en consola, el usuario puede seleccionar cualquier opcion que dese poner en marcha.
 
 ## 6. Almacenamiento de los productos
 
-Para almacenar los productos utilizamos una colección de tipo `ArrayList<Producto>`.
-
-Esta colección nos permite agregar, consultar y eliminar productos sin tener que definir una cantidad fija de elementos.
+Donde podemos almacenar los productos se uso una colección de tipo `ArrayList<Producto>` que nos permitio agregar, consultar y eliminar productos sin tener que declarar una cantidad fija de elementos.
 
 Los datos se mantienen en memoria mientras el programa está funcionando. Por este motivo, cuando se cierra el programa, los productos registrados no se guardan de forma permanente.
 
@@ -83,13 +76,11 @@ Durante el desarrollo del proyecto trabajamos con los siguientes métodos de Jav
 
 | Método | Descripción |
 |---|---|
-| `add()` | Permite agregar un producto a la lista. |
-| `get()` | Permite obtener un producto según su posición. |
-| `remove()` | Permite eliminar un producto. |
-| `size()` | Permite conocer la cantidad de productos registrados. |
+| `add()` | El add agrega un producto a la lista. |
+| `get()` | El get te permite obtener un producto según su posición. |
+| `remove()` | El remove o remover eliminar un producto. |
+| `size()` | El size nos muestra la cantidad de productos registrados. |
 | `Collections.sort()` | Permite ordenar los productos por precio utilizando un criterio de comparación. |
-
-Estos métodos nos ayudaron a realizar las operaciones principales del sistema y a practicar el uso de colecciones en Java.
 
 ## 8. Instrucciones para ejecutar el proyecto
 
@@ -101,15 +92,13 @@ Para ejecutar el programa, se deben seguir estos pasos:
 4. Ubicar el paquete `pa3` dentro de `src`.
 5. Buscar y abrir la clase `Main.java`.
 6. Ejecutar el programa desde la clase `Main`.
-7. Utilizar el menú de consola para probar las funcionalidades.
-
-El programa mostrará las opciones disponibles y permitirá realizar las operaciones con los productos.
+7. Utilizar el menú de consola para comprobar cada acción.
 
 ## 9. Video de exposición
 
-Como parte de la presentación del PA3, se realizará un video donde explicaremos el funcionamiento del sistema, las clases utilizadas y las operaciones desarrolladas por el equipo.
+Como parte de la presentación del PA3, realizamos un video donde explica paso apaso la funcion del sistema, las clases utilizadas y las operaciones desarrolladas por todo equipo.
 
-**Enlace del video:** [Agregar enlace de YouTube]
+**Enlace del video:** [enlace]
 
 ## 10. Registro de cambios en GitHub
 
@@ -121,71 +110,4 @@ git commit -m "Integrar sistema y documentar proyecto"
 git push
 ```
 
-El primer comando agrega los archivos indicados, el segundo registra los cambios mediante un commit y el tercero los envía al repositorio remoto.
-
----
-
-**Programación Orientada a Objetos - PA3**
-
-Proyecto académico desarrollado en Java para aplicar el uso de clases, objetos y colecciones mediante un sistema básico de gestión de productos.
-Archivo: README.md
-
-
-## 3. Tecnologias utilizadas
-
-- Java
-- ArrayList
-- Collections
-
-## 4. Estructura del proyecto
-
-src/
-  pa3/
-    Producto.java
-    Inventario.java
-    GestorColecciones.java
-    Menu.java
-    Main.java
-
-## 5. Funcionalidades
-
-1. Listar productos registrados.
-2. Agregar nuevos productos.
-3. Buscar productos por codigo.
-4. Eliminar productos.
-5. Ordenar productos por precio.
-6. Recuperar productos por posicion.
-
-## 6. Almacenamiento de datos
-
-Los productos se almacenan en una coleccion
-ArrayList<Producto>.
-
-Esta coleccion permite agregar, recuperar y eliminar
-elementos durante la ejecucion del programa.
-
-Los datos se mantienen en memoria y no se almacenan
-permanentemente al cerrar el programa.
-
-## 7. Operaciones utilizadas
-
-- add(): agrega productos.
-- get(): recupera productos por posicion.
-- remove(): elimina productos.
-- size(): consulta la cantidad de elementos.
-- Collections.sort(): ordena los productos por precio.
-
-## 8. Ejecucion
-
-Abrir el proyecto desde un IDE compatible con Java.
-
-Ejecutar la clase Main.java.
-
-## 9. Video de exposicion
-
-[Agregar enlace de YouTube]
-
-Commit:
-git add src/pa3/Main.java README.md
-git commit -m "Integrar sistema y documentar proyecto"
-git push
+# Gracias 
