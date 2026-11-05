@@ -98,7 +98,7 @@ Para ejecutar el programa, se deben seguir estos pasos:
 
 Como parte de la presentación del PA3, realizamos un video donde explica paso apaso la funcion del sistema, las clases utilizadas y las operaciones desarrolladas por todo equipo.
 
-**Enlace del video:** [enlace]
+**Enlace del video:** https://youtu.be/yokRiRUVrvo
 
 ## 10. Registro de cambios en GitHub
 
